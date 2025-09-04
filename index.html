@@ -103,35 +103,35 @@
                 <h2 class="section-title">Portfólio</h2>
                 <div class="card portfolio-grid-card">
                     <div class="gallery-grid">
-                        <a href="https://github.com/Denis-Rocha/Projeto-SP-470-ANOS" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto1">
                             <img src="images/foto-projeto-1.jpg" alt="Descrição do Projeto 1">
                             <div class="item-overlay">Projeto 1</div>
                         </a>
-                        <a href="URL_REPOSITORIO_PROJETO_2" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto2">
                             <img src="images/foto-projeto-2.jpg" alt="Descrição do Projeto 2">
                             <div class="item-overlay">Projeto 2</div>
                         </a>
-                        <a href="URL_REPOSITORIO_PROJETO_3" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto3">
                             <img src="images/foto-projeto-3.jpg" alt="Descrição do Projeto 3">
                             <div class="item-overlay">Projeto 3</div>
                         </a>
-                        <a href="URL_REPOSITORIO_PROJETO_4" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto4">
                             <img src="images/foto-projeto-4.jpg" alt="Descrição do Projeto 4">
                             <div class="item-overlay">Projeto 4</div>
                         </a>
-                        <a href="URL_REPOSITORIO_PROJETO_5" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto5">
                             <img src="images/foto-projeto-5.jpg" alt="Descrição do Projeto 5">
                             <div class="item-overlay">Projeto 5</div>
                         </a>
-                         <a href="URL_REPOSITORIO_PROJETO_6" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto6">
                             <img src="images/foto-projeto-6.jpg" alt="Descrição do Projeto 6">
                             <div class="item-overlay">Projeto 6</div>
                         </a>
-                         <a href="URL_REPOSITORIO_PROJETO_7" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto7">
                             <img src="images/foto-projeto-7.jpg" alt="Descrição do Projeto 7">
                             <div class="item-overlay">Projeto 7</div>
                         </a>
-                         <a href="URL_REPOSITORIO_PROJETO_8" target="_blank" class="gallery-item">
+                        <a class="gallery-item" data-id="projeto8">
                             <img src="images/foto-projeto-8.jpg" alt="Descrição do Projeto 8">
                             <div class="item-overlay">Projeto 8</div>
                         </a>
@@ -155,6 +155,19 @@
             </div>
         </section>
     </main>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modal-project-title"></h3>
+            <p id="modal-project-description"></p>
+            <img id="modal-project-image" src="" alt="Imagem do Projeto">
+            <div class="modal-links">
+                <a id="modal-project-repo" href="#" target="_blank" class="btn-primary">Ver Repositório</a>
+                <a id="modal-project-demo" href="#" target="_blank" class="btn-primary">Ver Demo</a>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

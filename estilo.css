@@ -205,6 +205,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 .gallery-item img {
     width: 100%;
@@ -255,12 +256,85 @@ body {
     cursor: pointer;
     font-size: 1.1rem;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center;
 }
 .btn-primary:hover {
     background-color: #0056b3;
 }
 
-/* Responsividade */
+/* --- Modal Style --- */
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fixo na tela */
+    z-index: 1001; /* Fica acima de tudo, inclusive da navbar */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Adiciona scroll se o conteúdo for muito grande */
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto semi-transparente */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.show {
+    display: flex; /* Exibe o modal como um flexbox */
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    margin: 5% auto; /* Centraliza verticalmente */
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+}
+
+.modal-content h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.modal-content p {
+    margin-bottom: 2rem;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.close-btn {
+    color: #aaa;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.modal-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 @media (min-width: 768px) {
     .hero-content {
         flex-direction: row;
@@ -271,6 +345,6 @@ body {
         max-width: 50%;
     }
     .gallery-grid {
-        grid-template-columns: repeat(4, 1fr); /* Grade 4x4 em telas maiores */
+        grid-template-columns: repeat(4, 1fr);
     }
 }
