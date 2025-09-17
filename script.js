@@ -34,18 +34,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
         {
             id: 'projeto1',
-            title: 'Projeto PrimeCode',
-            description: 'Site institucional moderno e responsivo para uma empresa de tecnologia. Desenvolvido com HTML, CSS e JavaScript.',
-            image: 'https://i.ibb.co/L5wK6Q5/image-738757.png',
-            repo: 'https://github.com/Denis-Rocha/Projeto-SP-470-ANOS',
-            demo: 'https://denis-rocha.github.io/Projeto-SP-470-ANOS/'
+            title: 'ECOMMERCE DE FUTEBOL',
+            description: 'Site moderno e responsivo para vendas de camisetas de futebol. Desenvolvido com HTML, CSS e JavaScript.',
+            image: 'images/ecommercefut.png',
+            repo: 'https://github.com/Denis-Rocha/ecommercefut',
+            demo: 'https://denis-rocha.github.io/ecommercefut/'
         },
         {
             id: 'projeto2',
-            title: 'Landing Page de Produto',
-            description: 'Landing page para um novo produto digital com foco em design minimalista e conversão. Inclui formulário de contato e animações.',
-            image: 'images/foto-projeto-2.jpg',
-            repo: 'URL_REPOSITORIO_PROJETO_2',
+            title: 'Trabalho de Conclusao de Curso',
+            description: 'Trabalho de Conclusão de Curso do ensino medio em programação de jogo digitais',
+            image: 'images/TCC.jpg',
+            repo: 'https://github.com/Denis-Rocha/CHASE-FUGITIVE',
             demo: 'URL_DEMO_PROJETO_2'
         },
         {
