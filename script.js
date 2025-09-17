@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
         {
             id: 'projeto1',
-            title: 'ECOMMERCE DE FUTEBOL',
+            title: 'E-COMMERCE DE FUTEBOL',
             description: 'Site moderno e responsivo para vendas de camisetas de futebol. Desenvolvido com HTML, CSS e JavaScript.',
             image: 'images/ecommercefut.png',
             repo: 'https://github.com/Denis-Rocha/ecommercefut',
@@ -50,17 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 'projeto3',
-            title: 'E-commerce Simples',
-            description: 'Uma loja virtual básica com carrinho de compras, lista de produtos e filtros. Criado para demonstrar habilidades em manipulação de DOM.',
-            image: 'images/foto-projeto-3.jpg',
-            repo: 'URL_REPOSITORIO_PROJETO_3',
+            title: 'Site sobre o jogo The last of Us',
+            description: 'Site para divulgação de informações e curiosidades sobre o jogo The Last of Us Part 1',
+            image: 'images/sitetlou.png',
+            repo: 'https://github.com/Denis-Rocha/Site-TLOU',
             demo: 'URL_DEMO_PROJETO_3'
         },
         {
             id: 'projeto4',
             title: 'Quiz de Conhecimento Geral',
             description: 'Jogo de perguntas e respostas com sistema de pontuação e feedback instantâneo. Um projeto de lógica e interação com o usuário.',
-            image: 'images/foto-projeto-4.jpg',
+            image: 'images/sitequiz.jpg',
             repo: 'URL_REPOSITORIO_PROJETO_4',
             demo: 'URL_DEMO_PROJETO_4'
         },
