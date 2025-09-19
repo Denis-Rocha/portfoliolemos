@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Trabalho de Conclusão de Curso do ensino medio em programação de jogo digitais',
             image: 'images/TCC.jpg',
             repo: 'https://github.com/Denis-Rocha/CHASE-FUGITIVE',
-            demo: 'URL_DEMO_PROJETO_2'
+            demo: 'https://drive.google.com/file/d/12qkF92Yo2YkS6DwYHHG8FFGOv0Xy0rel/view?usp=sharing'
         },
         {
             id: 'projeto3',
@@ -54,48 +54,17 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Site para divulgação de informações e curiosidades sobre o jogo The Last of Us Part 1',
             image: 'images/sitetlou.png',
             repo: 'https://github.com/Denis-Rocha/Site-TLOU',
-            demo: 'URL_DEMO_PROJETO_3'
+            demo: 'https://denis-rocha.github.io/Site-TLOU/'
         },
         {
             id: 'projeto4',
-            title: 'Quiz de Conhecimento Geral',
-            description: 'Jogo de perguntas e respostas com sistema de pontuação e feedback instantâneo. Um projeto de lógica e interação com o usuário.',
-            image: 'images/sitequiz.jpg',
-            repo: 'URL_REPOSITORIO_PROJETO_4',
+            title: 'Site sobre a empresa Sketch Land',
+            description: 'Site para informações, contato e divulgações de projetos da empresa desenvolvedora de games, Sketch land',
+            image: 'images/sketch.jpg',
+            repo: 'https://github.com/Denis-Rocha/chasefugitive',
             demo: 'URL_DEMO_PROJETO_4'
         },
-        {
-            id: 'projeto5',
-            title: 'Clone de Website',
-            description: 'Recriação de uma página web popular para praticar técnicas de layout, design responsivo e acessibilidade.',
-            image: 'images/foto-projeto-5.jpg',
-            repo: 'URL_REPOSITORIO_PROJETO_5',
-            demo: 'URL_DEMO_PROJETO_5'
-        },
-        {
-            id: 'projeto6',
-            title: 'Galeria de Fotos Dinâmica',
-            description: 'Uma galeria de imagens interativa que permite aos usuários filtrar e visualizar fotos de diferentes categorias com efeitos de transição suaves.',
-            image: 'images/foto-projeto-6.jpg',
-            repo: 'URL_REPOSITORIO_PROJETO_6',
-            demo: 'URL_DEMO_PROJETO_6'
-        },
-        {
-            id: 'projeto7',
-            title: 'Aplicação de Tempo',
-            description: 'Uma aplicação web que busca e exibe dados de tempo de uma API externa. Demonstra o uso de requisições assíncronas (Fetch API).',
-            image: 'images/foto-projeto-7.jpg',
-            repo: 'URL_REPOSITORIO_PROJETO_7',
-            demo: 'URL_DEMO_PROJETO_7'
-        },
-        {
-            id: 'projeto8',
-            title: 'Gerador de Senhas',
-            description: 'Uma ferramenta simples e segura para gerar senhas aleatórias. Permite ao usuário escolher o comprimento e os tipos de caracteres.',
-            image: 'images/foto-projeto-8.jpg',
-            repo: 'URL_REPOSITORIO_PROJETO_8',
-            demo: 'URL_DEMO_PROJETO_8'
-        },
+        
     ];
 
     // --- Lógica do Modal ---
