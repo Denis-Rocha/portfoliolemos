@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'projeto4',
             title: 'Site sobre a empresa Sketch Land',
-            description: 'Site para informações, contato e divulgações de projetos da empresa desenvolvedora de games, Sketch land',
+            description: 'Site para informações, contato e divulgações de projetos da empresa desenvolvedora de games, Sketch land.',
             image: 'images/sitechase.png',
             repo: 'https://github.com/Denis-Rocha/chasefugitive',
             demo: 'https://denis-rocha.github.io/chasefugitive/'
